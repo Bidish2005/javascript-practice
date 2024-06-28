@@ -69,4 +69,42 @@ Variable:-
              not equal to -> !=
              equal to & type ->===
              not equal to & type-> !==
-             
+
+             CONDITIONAL STATEMENT :-
+
+             to implement some condition in the code.
+             there are 3 types of conditional statement are there
+             1. if condition :-
+             if condition is true then statement is true otherwise false.
+             syntax -
+             if(condition){
+                   statement
+             }
+
+             2.if else condition :-
+             if condition is true then if bloack is executed otherwise its terminate to else condition.
+             syntax -
+             if(condition){
+              statement
+             } else {
+                  statement
+             }
+             3."'else-if' condition":-
+                ->It checks the condition multiple times where the condition is true.
+                ->Syntax:-
+                        if(condition){
+                                statement
+                        }
+                        else if(condition){
+                                statement
+                        }
+                        else if(condition){
+                                statement
+                        }
+                        else{
+                                statement
+                        }
+
+LOOP IN JS
+
+
