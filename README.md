@@ -104,7 +104,67 @@ Variable:-
                         else{
                                 statement
                         }
+STRING IN JAVASCRIPT :-
 
-LOOP IN JS
+string is a sequence of characters used to represent text.
+create astring -> let str ="web bocket"
+string length -> str.length
+string indexing -> tr[0], str[1], str[2]...
+
+Template literals in js:-
+its a way to have embedded epression in string.
+its denoted on "." 
+
+string symbol :-
+
+- \n - new line
+-  \t - tab inside a string
+
+string methods:-
+
+1. str.touppercase()
+2. str.tolowercase()
+3. str.trim()
+4. str.slice(ster)
+5. str1.concat(str2)
+6. str.replace(searchval, newval)
+7. str.charat(idx)
+
+ARRAY ON JS:-
+
+- array is collection of items.
+- ex.
+let heroes = ["irenman", "hulk", "thor", "batman"];
+let marks =[87,68,32,98,12];
+let info=["rahul" , 76, "delhi"];
+
+- array index starting from "0"
+
+looping over an array:-
+-  loops -> iterable
+- syntax :-
+ for (let i= 0; i < ary, length,i++)
 
 
+1- For a given array with marks of student ->[85,97,37,76,60]. Find the average marks of the entire class.
+
+ 02- For a given array with prices of 5 items of 4 items ->[250, 645, 300, 900, 50].  All items have a offer of 10% off on them.Change the array to store final price after appluing offer.
+
+ ARRAY METHOD :-
+ ---:Array Methods:---
+
+1.)Push:- Add an element to the end.
+2.)Pop:- Delete an element from the top/end.
+3.)toString:-Converts array to string.
+4.)concat:- joins multiple arrays ans return result.
+5.)unshift:- Add an element to the the string.
+6.)shift:- Delete from start.
+7.)slice():- Return a piece of the array.
+8.)splice();- Change original array(add, remove, replace).
+
+Map methods :-
+- creates a new  array with the results of some operation. the value its callback returns are used to form new array.
+- array.map(callbackFunction(valu,index,array))
+ex.
+
+let newArr = arr.map ((val)) =>
